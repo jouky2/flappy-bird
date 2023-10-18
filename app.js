@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded' , () => {
                 gameDisplay.removeChild(obstacle)
                 gameDisplay.removeChild(topObstacle)
                 score += 1
+                let textNode = document.createTextNode("Hello World"); document.body.appendChild(textNode);
                 
             }
             if (
